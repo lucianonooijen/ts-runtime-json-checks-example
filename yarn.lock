@@ -7,6 +7,63 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.28.tgz#0e36d718a29355ee51cec83b42d921299200f6d9"
   integrity sha512-dzjES1Egb4c1a89C7lKwQh8pwjYmlOAG9dW1pBgxEk57tMrLnssOfEthz8kdkNaBd7lIqQx7APm5+mZ619IiCQ==
 
+"aegis@https://github.com/lucianonooijen/aegis.git#package":
+  version "0.1.0"
+  resolved "https://github.com/lucianonooijen/aegis.git#4c24b0fc67251d41f766330aab4687e6479ee345"
+  dependencies:
+    commander "^2.19.0"
+    decoders "^1.10.6"
+    typescript "^3.2.2"
+
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
+commander@^2.19.0:
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
+
+debrief@^1.4.0:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/debrief/-/debrief-1.4.2.tgz#cc86c82e1697df55f3659743a3cb72423e0cf29e"
+  integrity sha512-C5yVhTCAB60BxJFLXCh34GYx6WcA+5aWM8Mm6S4dr78mWoedh2HEvwF7rcxArW7x+tiHdstU1myQCW9mQ1KlcA==
+
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
+decoders@^1.10.6, decoders@^1.22.2:
+  version "1.22.2"
+  resolved "https://registry.yarnpkg.com/decoders/-/decoders-1.22.2.tgz#f68d3f554b0bd1d2548b337c1ce8798a07bc7797"
+  integrity sha512-zuEIXvJ5Kk0G7PV0gW4i23ElqhSMXo4D0G0Qm2gnNJnrSJn1lU7zykDHJqgEeTyFmXAXnAXqWe7wc9N8rK+d4w==
+  dependencies:
+    debrief "^1.4.0"
+    lemons "^1.4.0"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
+
+lemons@^1.4.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/lemons/-/lemons-1.6.0.tgz#49c187e08f9675a1ef3e0f077b4192805531d1bf"
+  integrity sha512-nMnKQjqWp2G3odsHtwZD//WStAYnqCA6bM3JXLTLsQ1Mwkj2iLuaNQTJ6axt7wGqrZHMSt6tKDlHdjjJt9Cgxg==
+
+ms@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+  integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+
 typescript@^3.2.2:
   version "3.9.7"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"

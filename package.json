@@ -6,9 +6,13 @@
   "license": "GPL-3.0-only",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "aegis": "decoder-generator generate --inputPath ./src/api/types --outputFile ./src/api/internal/decoders.ts"
   },
   "dependencies": {
+    "aegis": "https://github.com/lucianonooijen/aegis.git#package",
+    "axios": "^0.19.2",
+    "decoders": "^1.22.2",
     "typescript": "^3.2.2"
   },
   "devDependencies": {
