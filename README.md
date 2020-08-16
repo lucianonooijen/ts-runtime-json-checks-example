@@ -13,4 +13,16 @@ yarn run tsc
 node lib/index.js
 ```
 
-If you want to trigger the error, edit `src/index.ts` and change `SHOULD_FAIL` to `true`.
+If you want to trigger the error, run
+
+```
+node lib/index.js --fail
+```
+
+## Updating decoders
+
+For updating the decoders for types defined in `src/api/types`, run
+
+```
+yarn aegis
+```
