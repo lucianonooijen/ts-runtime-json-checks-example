@@ -1,0 +1,17 @@
+{
+  "name": "ts-runtime-json-checks-example",
+  "description": "Example to show Typescript runtime checks for JSON",
+  "author": "Luciano Nooijen<luciano@bytecode.nl>",
+  "version": "0.0.1",
+  "license": "GPL-3.0-only",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
